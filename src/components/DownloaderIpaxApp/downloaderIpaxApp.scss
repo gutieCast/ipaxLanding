@@ -1,0 +1,13 @@
+.logo-container {
+    position: relative;
+    z-index: 3;
+    height: 40vh;
+    img {
+        max-height: 100%;
+        mix-blend-mode: darken;
+    }
+}
+
+.buttons-container {
+    width: 100%;
+}

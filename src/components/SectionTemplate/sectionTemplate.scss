@@ -1,0 +1,44 @@
+
+.uk-section {
+    position: relative;
+    z-index: 3;
+    .title-section {
+        font-size: 37px;
+        font-family: "Oswald", sans-serif;
+        font-weight: bolder;
+        margin-top:3em;
+        margin-left: auto;
+        margin-right:auto;
+        text-align: center;
+        text-transform: uppercase;
+    
+        /* Stryling the text and giving it gradiant */
+        color:#ffffff;
+        background: -webkit-linear-gradient(#fff, #eee);
+        background-clip: padding-box;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+    
+        /* Make sure text is infront of background images */
+        display:block;
+        position: relative;
+        z-index: 3;
+    }
+    h1 {
+        font-size: 43px;
+    }
+    h2 {
+        font-size: 37px;
+    }
+    p {
+        color: #999;
+        font-size: 1.2em;
+        font-weight: 300;
+        letter-spacing: 0.2em;
+        line-height: 1.5em;
+        position: relative;
+        text-transform: uppercase;
+        z-index: 3;
+    }
+}

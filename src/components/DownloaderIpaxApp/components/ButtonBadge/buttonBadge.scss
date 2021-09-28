@@ -1,0 +1,16 @@
+.badge-link {
+    display: block;
+    position: relative;
+    transition: transform 0.13s ease;
+    width: 200px;
+    z-index: 3;
+    &:hover {
+        transform: scale(1.07);
+        -ms-transform: scale(1.07);
+        -webkit-transform: scale(1.07);
+    }
+    .badge-img {
+        height: 65px;
+        width: 100%;
+    }
+}
